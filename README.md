@@ -24,14 +24,7 @@ Before you can use this Terraform configuration, ensure you have:
 
 1. Clone this repository or copy the Terraform configuration files to your local machine.
 
-2. Update the `terraform.tfvars` file (create one if it doesn't exist) with your specific values:
 
-   ```hcl
-   region = "your-aws-region"
-   public_subnet_cidrs = ["15.0.1.0/24", "15.0.2.0/24"]
-   private_subnet_cidrs = ["15.0.3.0/24", "15.0.4.0/24"]
-   azs = ["us-east-1a", "us-east-1b"]
-   ```
 
 3. Initialize Terraform:
 
